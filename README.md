@@ -1,10 +1,10 @@
 [![Build Status](https://travis-ci.org/donaldaverill/meteor-package-dinerware.svg)](https://travis-ci.org/donaldaverill/meteor-package-dinerware)
 Connect to a Dinerware POS
 =============================
-This package allows for connecting to a Dinerware POS Brain. Meteor server
-must be on the Brain terminal or in the network with the SQL Server on the brain
-accessible to network computers with password authentication. Package uses
-tedious and tedious-connection-pool npm packages.
+This package allows for connecting to a Dinerware POS Brain. It doesn't do much
+other than connecting at this point. Meteor server must be on the Brain
+terminal or in the network with the SQL Server on the brain accessible to
+network computers with password authentication. Package uses [tedious](https://www.npmjs.com/package/tedious) and [tedious-connection-pool](https://www.npmjs.com/package/tedious-connection-pool) npm packages.
 ## Install
 To install in a new project:
 ```bash
