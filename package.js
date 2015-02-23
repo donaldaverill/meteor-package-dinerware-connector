@@ -1,8 +1,8 @@
 Package.describe({
   name: 'donaldaverill:dinerware',
   summary: 'Connect to a Dinerware POS',
-  version: '1.0.0',
-  git: 'https://github.com/donaldaverill/meteor-package-dinerware.git'
+  version: '1.0.1',
+  git: 'https://github.com/donaldaverill/meteor-package-dinerware-connector.git'
 });
 
 Npm.depends({
@@ -20,6 +20,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('donaldaverill:dinerware');
+  api.use('donaldaverill:dinerware-connector');
   api.addFiles('donaldaverill:dinerware-tests.js');
 });

@@ -29,7 +29,7 @@ Configure Dinerware object by adding [connection details](https://www.npmjs.com/
 }
 ```
 You can also configure Dinerware by passing config details directly:
-```js
+```javascript
 var poolConfig = {
     min: 2,
     max: 4,
@@ -43,6 +43,6 @@ var connectionConfig = {
 Dinerware.config(poolConfig, connectionConfig);
 ```
 Currently, this package doesn't do much except to print query results. You can fork and add your own methods. Submit a PR if you like. To print query results:
-```js
+```javascript
 Dinerware.printQuery('SELECT * FROM SomeTable');
 ```
