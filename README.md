@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/donaldaverill/meteor-package-dinerware.svg)](https://travis-ci.org/donaldaverill/meteor-package-dinerware)
+[![Build Status](https://travis-ci.org/donaldaverill/meteor-package-dinerware-connector.svg?branch=master)](https://travis-ci.org/donaldaverill/meteor-package-dinerware-connector)
 Connect to a Dinerware POS
 =============================
 This package allows for connecting to a Dinerware POS Brain. It doesn't do much
