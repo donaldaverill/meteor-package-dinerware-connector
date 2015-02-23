@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'donaldaverill:dinerware',
+  name: 'donaldaverill:dinerware-connector',
   summary: 'Connect to a Dinerware POS',
   version: '1.0.1',
   git: 'https://github.com/donaldaverill/meteor-package-dinerware-connector.git'
