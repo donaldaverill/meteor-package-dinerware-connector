@@ -1,17 +1,17 @@
 Package.describe({
   name: 'donaldaverill:dinerware',
-  summary: ' /* Fill me in! */ ',
+  summary: 'Connect to a Dinerware POS',
   version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  git: 'https://github.com/donaldaverill/meteor-package-dinerware.git'
 });
 
+Npm.depends({
+  'tedious': '1.10.0',
+  'tedious-connection-pool': '0.3.4'
+});
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  Npm.depends({
-    'tedious': '1.7.0',
-    'tedious-connection-pool': '0.3.2'
-  });
   api.export('Dinerware', ['server']);
   api.use('mongo', ['server']);
   api.use('underscore', ['server']);

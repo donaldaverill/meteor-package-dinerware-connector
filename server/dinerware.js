@@ -2,7 +2,7 @@ var Tedious = Npm.require('tedious');
 var TediousConnectionPool = Npm.require('tedious-connection-pool');
 
 var dinerware = function(poolConfig, connectionConfig) {
-var _poolConfig = poolConfig;
+  var _poolConfig = poolConfig;
   var _connectionConfig = connectionConfig;
   this.connectionPool = null;
   if (!!_poolConfig && !!_connectionConfig) {
@@ -36,12 +36,9 @@ dinerware.prototype.printQuery = function(query) {
     }
     this.connectionPool.acquire(function(err, connection) {
       var request = new Tedious.Request(query,
-        function(
-          err,
-          rowCount) {
-
+        function(err, rowCount) {
           if (err) {
-            console.log(err);
+            throw new Meteor.Error('dinerware-query-error', err);
           } else {
             console.log(rowCount + ' rows');
           }
