@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/donaldaverill/meteor-package-dinerware-connector.svg?branch=master)](https://travis-ci.org/donaldaverill/meteor-package-dinerware-connector)
+[![Build Status](https://travis-ci.org/fourquet/meteor-package-dinerware-connector.svg?branch=master)](https://travis-ci.org/fourquet/meteor-package-dinerware-connector)
 Connect to a Dinerware POS
 =============================
 This package allows for connecting to a Dinerware POS Brain. It doesn't do much
@@ -8,7 +8,7 @@ network computers with password authentication. Package uses [tedious](https://w
 ## Install
 To install in a new project:
 ```bash
-> meteor add donaldaverill:dinerware
+> meteor add fourquet:dinerware
 ```
 ## Use
 Configure Dinerware object by adding [connection details](https://www.npmjs.com/package/tedious-connection-pool) to your setting.json file like:
