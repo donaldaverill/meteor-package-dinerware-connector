@@ -1,13 +1,13 @@
 Package.describe({
   name: 'fourquet:dinerware-connector',
   summary: 'Connect to a Dinerware POS',
-  version: '1.12.2_1',
+  version: '1.13.1_1',
   git: 'https://github.com/fourquet/meteor-package-dinerware-connector.git'
 });
 
 Npm.depends({
-  'tedious': '1.12.2',
-  'tedious-connection-pool': '0.3.8'
+  'tedious': '1.13.1',
+  'tedious-connection-pool': '0.3.9'
 });
 
 Package.onUse(function(api) {
