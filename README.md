@@ -4,10 +4,8 @@ Connect to a Dinerware POS
 This package allows for connecting to a Dinerware POS Brain. Meteor server must be on the Brain terminal or in the network with the SQL Server on the brain accessible to
 network computers with password authentication. Package uses [tedious](https://www.npmjs.com/package/tedious) and [tedious-connection-pool](https://www.npmjs.com/package/tedious-connection-pool) npm packages.
 ## Install
-To install in a new project:
-```bash
-> meteor add fourquet:dinerware
-```
+To install in a new project, fork or download this repository and put in the packages directory in a meteor project.
+
 ## Use
 Configure Dinerware object by adding [connection details](https://www.npmjs.com/package/tedious-connection-pool) to your setting.json file like:
 ```json
@@ -44,3 +42,10 @@ Currently, this package only prints query results. You can fork and add your own
 ```javascript
 Dinerware.printQuery('SELECT * FROM SomeTable');
 ```
+### Version
+1.13.1_1
+
+License
+----
+
+MIT
